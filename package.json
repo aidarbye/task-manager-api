@@ -1,0 +1,22 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "REST API for managing users, projects, tasks and tags (Express + Sequelize + SQLite)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node scripts/run-postman-tests.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "5.1.0",
+    "sequelize": "6.37.7",
+    "sqlite3": "5.1.7",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "newman": "6.2.1"
+  }
+}
